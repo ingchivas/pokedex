@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Navbar user={session?.user} />
-      <h1>Home</h1>
+      <h1 className='text-xl'>Home</h1>
     </div>
 
   )
